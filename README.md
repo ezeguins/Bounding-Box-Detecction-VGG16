@@ -17,3 +17,8 @@ DATA AUGMENTATION FOR BOUNDING BOX DETECTION DATASET
 - Load dataset file from gdrive.
 - Divide in three equal parts and rotate images and boundig boxes 90, 180 and 270 degrees.
 - Save to gdrive rotated data and annotations with their new filesnames.
+
+## dataset_generator_ts.ipynb
+GENERATE .NPZ DATASET FILE FROM TWO DIFFERENT CVS ANNOTATIONS FILES
+First dataset genertion and second dataset generation attached to the first one.
+Record file to current gdrive 
