@@ -28,3 +28,6 @@ Record file to current gdrive
 
 ### labeling_visualization_ts.ipynb
 THIS NOTEBOOK IS USEFUL TO VISUALIZE THE BOUNDING BOX DATASET AND THE ANNOTATIONS (LABELING)  
+
+### predict_txt_ts.ipynb
+BOUNDING BOX MODEL PREDICTION FROM .TXT FILE CONTAINING TEST IMAGES FILENAMES GENERATED IN THE "model_training_ts.ipynb" FILE
