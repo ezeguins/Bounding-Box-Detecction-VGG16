@@ -1,5 +1,7 @@
 # BOUNDING BOX DETECTION VGG16
 Python Google Colaboratory Notebooks - Contacts Images files Bounding Box Detection. 
+The original data set was obtained from corporate documents and is the property of MERCADOLIBRE and is not shared due to confidentiality reasons.
+
 
 ## Files:
 ### CV2_filters_ts.ipynb
