@@ -29,5 +29,16 @@ Record file to current gdrive
 ### labeling_visualization_ts.ipynb
 THIS NOTEBOOK IS USEFUL TO VISUALIZE THE BOUNDING BOX DATASET AND THE ANNOTATIONS (LABELING)  
 
+### model_training_ts.ipynb
+THE NOTEBOOKS PERFORMS THE FOLLOWING:
+
+- Load the dataset generated at "dataset_generator_ts.ipynb" file
+- Initialize model parameters
+- partition the data into training and testing splits using 90% of the data for training and the remaining 10% for testing
+- Load the VGG16 network with "imagenet" weights, ensuring the head FC layers are left off
+- Construct the model we will fine-tune for bounding box regression
+- Initialize and train de model
+- Plot results and model training history
+
 ### predict_txt_ts.ipynb
 BOUNDING BOX MODEL PREDICTION FROM .TXT FILE CONTAINING TEST IMAGES FILENAMES GENERATED IN THE "model_training_ts.ipynb" FILE
